@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>合約法原則圖解 — 吉卜力風格</title>
+  <title>合約法原則圖解 — 吉卜力風格 | Contract Law Principles</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -18,8 +18,8 @@
       background: linear-gradient(135deg, #2e7d32, #1565c0);
       color: white;
     }
-    .header h1 { font-size: 2.2rem; margin-bottom: 8px; }
-    .header p { opacity: 0.9; font-size: 1rem; }
+    .header h1 { font-size: 2rem; margin-bottom: 8px; }
+    .header .en { font-size: 1.1rem; opacity: 0.9; margin-bottom: 6px; }
     .header .case { color: #ffd54f; margin-top: 6px; font-size: 0.95rem; }
     .gallery {
       max-width: 1100px;
@@ -47,9 +47,8 @@
       width: 36px; height: 36px;
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      font-weight: bold;
-      font-size: 1rem;
-      margin: 12px;
+      font-weight: bold; font-size: 1rem;
+      margin: 12px; z-index: 1;
     }
     .card img {
       width: 100%;
@@ -58,17 +57,29 @@
       object-fit: cover;
     }
     .card-body {
-      padding: 16px 20px;
+      padding: 18px 22px;
       position: relative;
     }
     .card-body h3 {
       font-size: 1.05rem;
       color: #2e7d32;
+      margin-bottom: 4px;
+    }
+    .card-body .en-title {
+      font-size: 0.9rem;
+      color: #1565c0;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .card-body .desc {
+      font-size: 0.88rem;
+      color: #555;
+      line-height: 1.7;
       margin-bottom: 6px;
     }
-    .card-body p {
-      font-size: 0.9rem;
-      color: #666;
+    .card-body .desc-en {
+      font-size: 0.82rem;
+      color: #888;
       line-height: 1.6;
     }
     .footer {
@@ -79,87 +90,112 @@
     }
     @media (max-width: 520px) {
       .gallery { grid-template-columns: 1fr; padding: 16px; gap: 20px; }
-      .header h1 { font-size: 1.5rem; }
+      .header h1 { font-size: 1.4rem; }
     }
   </style>
 </head>
 <body>
   <div class="header">
     <h1>⚖️ 合約法原則圖解</h1>
-    <p>LAWS6021 Principles of Contract — Offer & Replies to Inquiries</p>
-    <p class="case">Harvey v Facey [1893] AC 552 (PC) — 吉卜力風格插圖</p>
+    <p class="en">Contract Law Principles — Illustrated in Studio Ghibli Style</p>
+    <p style="font-size:0.95rem;">LAWS6021 Principles of Contract — Offer & Replies to Inquiries</p>
+    <p class="case">Harvey v Facey [1893] AC 552 (PC)</p>
   </div>
 
   <div class="gallery">
     <div class="card" style="position:relative">
       <span class="card-num">1</span>
-      <img src="images/ghibli/01-three-pillars.jpg" alt="三大支柱">
+      <img src="images/ghibli/01-three-pillars.jpg" alt="三大支柱 Three Pillars">
       <div class="card-body">
         <h3>🏗️ 合約成立的三大支柱</h3>
-        <p>合約必須具備三大要素：合意（Consensus ad idem）、建立法律關係的意圖（Animus contrahendi）、對價（Consideration）。三根支柱缺一不可。</p>
+        <div class="en-title">The Three Pillars of Contract Formation</div>
+        <p class="desc">合約必須具備三大要素：合意（Consensus ad idem）、建立法律關係的意圖（Animus contrahendi）、對價（Consideration）。三根支柱缺一不可。</p>
+        <p class="desc-en">A contract requires three essential elements: (1) Consensus ad idem — a meeting of minds; (2) Animus contrahendi — intention to create legal relations; (3) Consideration. All three pillars must be present.</p>
       </div>
     </div>
+
     <div class="card" style="position:relative">
       <span class="card-num">2</span>
-      <img src="images/ghibli/02-offer-definition.jpg" alt="要約定義">
+      <img src="images/ghibli/02-offer-definition.jpg" alt="要約定義 Offer Definition">
       <div class="card-body">
-        <h3>📜 要約的定義（Offer）</h3>
-        <p>要約是一個合理的人會理解為「一經承諾即受約束」的明確表示。條款必須確定或可確定。</p>
+        <h3>📜 要約的定義</h3>
+        <div class="en-title">Definition of Offer</div>
+        <p class="desc">要約是一個明確的表示，合理的人會理解為「一經承諾即受約束」。條款必須確定或可確定。根據 Halsbury's Laws of Hong Kong 的定義。</p>
+        <p class="desc-en">An offer is "an expression of willingness to be bound to a contract on terms certain or capable of being rendered certain", as defined in Halsbury's Laws of Hong Kong.</p>
       </div>
     </div>
+
     <div class="card" style="position:relative">
       <span class="card-num">3</span>
-      <img src="images/ghibli/03-harvey-telegram.jpg" alt="Harvey 發出查詢">
+      <img src="images/ghibli/03-harvey-telegram.jpg" alt="Harvey 的查詢 The Inquiry">
       <div class="card-body">
         <h3>📨 Harvey v Facey — 買方的查詢</h3>
-        <p>Harvey 向 Facey 發出電報，詢問「你願意以多少錢出售 Bumper Hall Pen？」這只是一個查詢（Inquiry），並非要約。</p>
+        <div class="en-title">Harvey v Facey — The Buyer's Inquiry</div>
+        <p class="desc">Harvey 向 Facey 發出電報：「你願意以多少錢出售 Bumper Hall Pen？」這只是一個查詢（Inquiry），並非要約（Offer）。</p>
+        <p class="desc-en">Harvey sent a telegram to Facey: "Will you sell us Bumper Hall Pen? State lowest price." This was merely an inquiry, not an offer capable of acceptance.</p>
       </div>
     </div>
+
     <div class="card" style="position:relative">
       <span class="card-num">4</span>
-      <img src="images/ghibli/04-facey-reply.jpg" alt="Facey 的回覆">
+      <img src="images/ghibli/04-facey-reply.jpg" alt="Facey 的回覆 The Reply">
       <div class="card-body">
         <h3>📝 Facey 的回覆 — 僅是資訊</h3>
-        <p>Facey 回覆「最低售價為 £1,000」。法院裁定這僅是提供價格資訊，並非表示願意出售的要約。</p>
+        <div class="en-title">Facey's Reply — Information Only</div>
+        <p class="desc">Facey 回覆：「最低售價為 £1,000」。法院裁定這僅是提供價格資訊，並非表示願意出售的要約。一個合理的人不會認為這是承諾。</p>
+        <p class="desc-en">Facey replied: "Lowest price for Bumper Hall Pen is £1,000." The Privy Council held this was merely providing information, not an offer to sell. A reasonable person would not understand it as a willingness to be bound.</p>
       </div>
     </div>
+
     <div class="card" style="position:relative">
       <span class="card-num">5</span>
-      <img src="images/ghibli/05-court-judgment.jpg" alt="樞密院判決">
+      <img src="images/ghibli/05-court-judgment.jpg" alt="樞密院判決 Judgment">
       <div class="card-body">
         <h3>⚖️ 樞密院的判決</h3>
-        <p>樞密院裁定 Facey 的回覆不構成要約。Harvey 的「接受」無效，因為根本不存在可供承諾的要約。</p>
+        <div class="en-title">The Privy Council's Judgment</div>
+        <p class="desc">樞密院裁定：無要約即無合約。Facey 的回覆不構成要約，因此 Harvey 的「接受」無效。這是回覆查詢與要約的關鍵區別。</p>
+        <p class="desc-en">The Privy Council ruled: "No offer, no contract." Facey's reply did not constitute an offer, therefore Harvey's purported "acceptance" was ineffective. This establishes the crucial distinction between a reply to inquiry and an offer.</p>
       </div>
     </div>
+
     <div class="card" style="position:relative">
       <span class="card-num">6</span>
-      <img src="images/ghibli/06-objective-test.jpg" alt="客觀測試">
+      <img src="images/ghibli/06-objective-test.jpg" alt="客觀測試 Objective Test">
       <div class="card-body">
-        <h3>🧪 客觀測試（Objective Test）</h3>
-        <p>法院採用「合理人」標準：一個站在受要約人立場的合理人，會如何理解該表示？不探究主觀意圖。</p>
+        <h3>🧪 客觀測試 — 合理人標準</h3>
+        <div class="en-title">The Objective Test — Reasonable Person Standard</div>
+        <p class="desc">法院採用客觀測試：一個站在受要約人立場的合理人，會如何理解該表示？不探究當事人的主觀意圖，而是以外在行為判斷。</p>
+        <p class="desc-en">The court applies an objective test: how would a reasonable person in the position of the offeree understand the statement? The court does not investigate subjective intention but judges by outward conduct.</p>
       </div>
     </div>
+
     <div class="card" style="position:relative">
       <span class="card-num">7</span>
-      <img src="images/ghibli/07-context-matters.jpg" alt="語境決定性質">
+      <img src="images/ghibli/07-context-matters.jpg" alt="語境決定性質 Context Matters">
       <div class="card-body">
         <h3>📚 語境決定性質</h3>
-        <p>同樣的文字在不同語境下可能有不同法律效果。Harvey 的回覆是資訊，但 Carlill 案的廣告卻構成要約。</p>
+        <div class="en-title">Context Determines the Nature</div>
+        <p class="desc">同樣的文字在不同語境下可能有不同法律效果。Harvey 案的回覆是資訊，但 Carlill v Carbolic Smoke Ball Co 案的廣告卻構成單邊要約。Everything depends on the words and context.</p>
+        <p class="desc-en">The same words may have different legal effects in different contexts. In Harvey, the reply was mere information; yet in Carlill v Carbolic Smoke Ball Co, an advertisement constituted a unilateral offer. Everything depends on the words employed and the context.</p>
       </div>
     </div>
+
     <div class="card" style="position:relative">
       <span class="card-num">8</span>
-      <img src="images/ghibli/08-key-takeaways.jpg" alt="重點總結">
+      <img src="images/ghibli/08-key-takeaways.jpg" alt="重點總結 Key Takeaways">
       <div class="card-body">
         <h3>📌 重點總結</h3>
-        <p>① 要約必須顯示受約束的意圖 ② 回覆查詢僅是資訊 ③ 採用客觀合理人測試 ④ 語境決定法律效果 ⑤ 區分要約與邀約要約</p>
+        <div class="en-title">Key Takeaways</div>
+        <p class="desc">① 要約必須顯示受約束的意圖 ② 回覆查詢僅是資訊 ③ 採用客觀合理人測試 ④ 語境決定法律效果 ⑤ 區分要約與邀約要約</p>
+        <p class="desc-en">① An offer must show willingness to be bound ② A reply to inquiry is mere information ③ Apply the objective reasonable person test ④ Context determines legal effect ⑤ Distinguish offer from invitation to treat</p>
       </div>
     </div>
   </div>
 
   <div class="footer">
     <p>LAWS6021 Principles of Contract — Week 1 Seminar Guide</p>
-    <p>圖片由 AI 生成（吉卜力風格）| © 2026 香港法律科普</p>
+    <p>圖片由 AI 生成（吉卜力風格）| Images generated by AI (Studio Ghibli style)</p>
+    <p>© 2026 香港法律科普 | Hong Kong Legal Education</p>
   </div>
 </body>
 </html>
