@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>合約法原則圖解 — 吉卜力風格</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background: linear-gradient(180deg, #e8f5e9 0%, #fff8e1 50%, #e3f2fd 100%);
+      min-height: 100vh;
+    }
+    .header {
+      text-align: center;
+      padding: 50px 20px 30px;
+      background: linear-gradient(135deg, #2e7d32, #1565c0);
+      color: white;
+    }
+    .header h1 { font-size: 2.2rem; margin-bottom: 8px; }
+    .header p { opacity: 0.9; font-size: 1rem; }
+    .header .case { color: #ffd54f; margin-top: 6px; font-size: 0.95rem; }
+    .gallery {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    }
+    .card-num {
+      position: absolute;
+      background: #ffd54f;
+      color: #1b5e20;
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: bold;
+      font-size: 1rem;
+      margin: 12px;
+    }
+    .card img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 16px 20px;
+      position: relative;
+    }
+    .card-body h3 {
+      font-size: 1.05rem;
+      color: #2e7d32;
+      margin-bottom: 6px;
+    }
+    .card-body p {
+      font-size: 0.9rem;
+      color: #666;
+      line-height: 1.6;
+    }
+    .footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #888;
+      font-size: 0.85rem;
+    }
+    @media (max-width: 520px) {
+      .gallery { grid-template-columns: 1fr; padding: 16px; gap: 20px; }
+      .header h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>⚖️ 合約法原則圖解</h1>
+    <p>LAWS6021 Principles of Contract — Offer & Replies to Inquiries</p>
+    <p class="case">Harvey v Facey [1893] AC 552 (PC) — 吉卜力風格插圖</p>
+  </div>
+
+  <div class="gallery">
+    <div class="card" style="position:relative">
+      <span class="card-num">1</span>
+      <img src="images/ghibli/01-three-pillars.jpg" alt="三大支柱">
+      <div class="card-body">
+        <h3>🏗️ 合約成立的三大支柱</h3>
+        <p>合約必須具備三大要素：合意（Consensus ad idem）、建立法律關係的意圖（Animus contrahendi）、對價（Consideration）。三根支柱缺一不可。</p>
+      </div>
+    </div>
+    <div class="card" style="position:relative">
+      <span class="card-num">2</span>
+      <img src="images/ghibli/02-offer-definition.jpg" alt="要約定義">
+      <div class="card-body">
+        <h3>📜 要約的定義（Offer）</h3>
+        <p>要約是一個合理的人會理解為「一經承諾即受約束」的明確表示。條款必須確定或可確定。</p>
+      </div>
+    </div>
+    <div class="card" style="position:relative">
+      <span class="card-num">3</span>
+      <img src="images/ghibli/03-harvey-telegram.jpg" alt="Harvey 發出查詢">
+      <div class="card-body">
+        <h3>📨 Harvey v Facey — 買方的查詢</h3>
+        <p>Harvey 向 Facey 發出電報，詢問「你願意以多少錢出售 Bumper Hall Pen？」這只是一個查詢（Inquiry），並非要約。</p>
+      </div>
+    </div>
+    <div class="card" style="position:relative">
+      <span class="card-num">4</span>
+      <img src="images/ghibli/04-facey-reply.jpg" alt="Facey 的回覆">
+      <div class="card-body">
+        <h3>📝 Facey 的回覆 — 僅是資訊</h3>
+        <p>Facey 回覆「最低售價為 £1,000」。法院裁定這僅是提供價格資訊，並非表示願意出售的要約。</p>
+      </div>
+    </div>
+    <div class="card" style="position:relative">
+      <span class="card-num">5</span>
+      <img src="images/ghibli/05-court-judgment.jpg" alt="樞密院判決">
+      <div class="card-body">
+        <h3>⚖️ 樞密院的判決</h3>
+        <p>樞密院裁定 Facey 的回覆不構成要約。Harvey 的「接受」無效，因為根本不存在可供承諾的要約。</p>
+      </div>
+    </div>
+    <div class="card" style="position:relative">
+      <span class="card-num">6</span>
+      <img src="images/ghibli/06-objective-test.jpg" alt="客觀測試">
+      <div class="card-body">
+        <h3>🧪 客觀測試（Objective Test）</h3>
+        <p>法院採用「合理人」標準：一個站在受要約人立場的合理人，會如何理解該表示？不探究主觀意圖。</p>
+      </div>
+    </div>
+    <div class="card" style="position:relative">
+      <span class="card-num">7</span>
+      <img src="images/ghibli/07-context-matters.jpg" alt="語境決定性質">
+      <div class="card-body">
+        <h3>📚 語境決定性質</h3>
+        <p>同樣的文字在不同語境下可能有不同法律效果。Harvey 的回覆是資訊，但 Carlill 案的廣告卻構成要約。</p>
+      </div>
+    </div>
+    <div class="card" style="position:relative">
+      <span class="card-num">8</span>
+      <img src="images/ghibli/08-key-takeaways.jpg" alt="重點總結">
+      <div class="card-body">
+        <h3>📌 重點總結</h3>
+        <p>① 要約必須顯示受約束的意圖 ② 回覆查詢僅是資訊 ③ 採用客觀合理人測試 ④ 語境決定法律效果 ⑤ 區分要約與邀約要約</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>LAWS6021 Principles of Contract — Week 1 Seminar Guide</p>
+    <p>圖片由 AI 生成（吉卜力風格）| © 2026 香港法律科普</p>
+  </div>
+</body>
+</html>
