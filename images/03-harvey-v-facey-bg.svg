@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Noto Sans TC', sans-serif">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky3)"/>
+  <!-- Clouds -->
+  <ellipse cx="100" cy="60" rx="70" ry="30" fill="white" opacity="0.8"/>
+  <ellipse cx="700" cy="80" rx="60" ry="25" fill="white" opacity="0.7"/>
+  <!-- Title -->
+  <rect x="80" y="20" width="640" height="50" rx="25" fill="#1565C0" opacity="0.9"/>
+  <text x="400" y="52" text-anchor="middle" fill="white" font-size="20" font-weight="bold">📨 Harvey v Facey [1893] — 案件背景</text>
+  <!-- House illustration -->
+  <rect x="550" y="250" width="150" height="120" fill="#FFCCBC" stroke="#BF360C" stroke-width="2" rx="5"/>
+  <polygon points="540,250 625,180 710,250" fill="#D32F2F" stroke="#B71C1C" stroke-width="2"/>
+  <rect x="600" y="300" width="40" height="70" fill="#8D6E63" rx="3"/>
+  <rect x="565" y="275" width="30" height="30" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
+  <rect x="655" y="275" width="30" height="30" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
+  <text x="625" y="400" text-anchor="middle" fill="#BF360C" font-size="13" font-weight="bold">Bumper Hall Pen</text>
+  <!-- Harvey (buyer) - left side -->
+  <rect x="60" y="120" width="280" height="200" rx="15" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+  <text x="200" y="155" text-anchor="middle" fill="#2E7D32" font-size="16" font-weight="bold">Harvey（買方）</text>
+  <text x="200" y="185" text-anchor="middle" fill="#555" font-size="13">致電報給 Facey：</text>
+  <line x1="100" y1="200" x2="300" y2="200" stroke="#C8E6C9" stroke-width="1"/>
+  <text x="200" y="225" text-anchor="middle" fill="#333" font-size="13">"你願意以多少錢</text>
+  <text x="200" y="250" text-anchor="middle" fill="#333" font-size="13">出售 Bumper Hall Pen？"</text>
+  <text x="200" y="285" text-anchor="middle" fill="#1565C0" font-size="12">💬 這是一個查詢（Inquiry）</text>
+  <text x="200" y="305" text-anchor="middle" fill="#1565C0" font-size="12">而非要約（Offer）</text>
+  <!-- Telegram lines -->
+  <line x1="340" y1="220" x2="450" y2="320" stroke="#FF8F00" stroke-width="2" stroke-dasharray="8,4"/>
+  <polygon points="450,320 440,310 445,318" fill="#FF8F00"/>
+  <text x="370" y="260" fill="#FF8F00" font-size="11" transform="rotate(20,370,260)">電報 📨</text>
+  <!-- Facey (seller) - right middle -->
+  <rect x="440" y="290" width="280" height="180" rx="15" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+  <text x="580" y="325" text-anchor="middle" fill="#BF360C" font-size="16" font-weight="bold">Facey（賣方）</text>
+  <text x="580" y="355" text-anchor="middle" fill="#555" font-size="13">回覆電報：</text>
+  <line x1="480" y1="370" x2="680" y2="370" stroke="#FFCCBC" stroke-width="1"/>
+  <text x="580" y="395" text-anchor="middle" fill="#333" font-size="13">"最低售價為 £1,000"</text>
+  <text x="580" y="425" text-anchor="middle" fill="#E65100" font-size="12">💬 這僅是提供資訊</text>
+  <text x="580" y="445" text-anchor="middle" fill="#E65100" font-size="12">（Information）</text>
+  <!-- Harvey's response -->
+  <rect x="60" y="370" width="280" height="140" rx="15" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+  <text x="200" y="405" text-anchor="middle" fill="#1565C0" font-size="16" font-weight="bold">Harvey 的主張</text>
+  <text x="200" y="435" text-anchor="middle" fill="#555" font-size="13">"我接受你的要約！"</text>
+  <text x="200" y="465" text-anchor="middle" fill="#D32F2F" font-size="12">❌ 但法院裁定：</text>
+  <text x="200" y="490" text-anchor="middle" fill="#D32F2F" font-size="12">Facey 的回覆不構成要約</text>
+  <!-- Ground -->
+  <rect x="0" y="540" width="800" height="60" fill="#8BC34A"/>
+  <text x="400" y="575" text-anchor="middle" fill="#1B5E20" font-size="14" font-weight="bold">⚖️ 樞密院裁定：Facey 的回覆僅是提供資訊，並非要約</text>
+</svg>

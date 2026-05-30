@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Noto Sans TC', sans-serif">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E1BEE7"/>
+      <stop offset="50%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E8F5E9"/>
+    </linearGradient>
+    <filter id="soft">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky4)"/>
+  <!-- Title -->
+  <rect x="120" y="25" width="560" height="55" rx="28" fill="#6A1B9A" filter="url(#soft)"/>
+  <text x="400" y="60" text-anchor="middle" fill="white" font-size="20" font-weight="bold">🔍 回覆查詢 vs 要約 — 核心區別</text>
+  <!-- VS divider -->
+  <circle cx="400" cy="310" r="40" fill="#FF5722" filter="url(#soft)"/>
+  <text x="400" y="318" text-anchor="middle" fill="white" font-size="22" font-weight="bold">VS</text>
+  <!-- Left: Reply to Inquiry -->
+  <rect x="40" y="110" width="330" height="420" rx="20" fill="white" stroke="#4CAF50" stroke-width="3" filter="url(#soft)"/>
+  <rect x="40" y="110" width="330" height="60" rx="20" fill="#4CAF50"/>
+  <rect x="40" y="145" width="330" height="25" fill="#4CAF50"/>
+  <text x="205" y="150" text-anchor="middle" fill="white" font-size="18" font-weight="bold">📝 回覆查詢</text>
+  <text x="205" y="210" text-anchor="middle" fill="#555" font-size="14">Reply to Inquiry</text>
+  <line x1="80" y1="225" x2="330" y2="225" stroke="#E8F5E9" stroke-width="1"/>
+  <text x="205" y="255" text-anchor="middle" fill="#333" font-size="13">• 僅是提供資訊</text>
+  <text x="205" y="285" text-anchor="middle" fill="#333" font-size="13">• 無意圖受約束</text>
+  <text x="205" y="315" text-anchor="middle" fill="#333" font-size="13">• 邀請對方提出要約</text>
+  <text x="205" y="345" text-anchor="middle" fill="#333" font-size="13">• 不可被承諾</text>
+  <line x1="80" y1="360" x2="330" y2="360" stroke="#E8F5E9" stroke-width="1"/>
+  <rect x="80" y="375" width="250" height="45" rx="10" fill="#E8F5E9"/>
+  <text x="205" y="403" text-anchor="middle" fill="#2E7D32" font-size="12" font-weight="bold">💬 "最低售價為 £1,000"</text>
+  <rect x="80" y="430" width="250" height="45" rx="10" fill="#FFEBEE"/>
+  <text x="205" y="458" text-anchor="middle" fill="#C62828" font-size="12">❌ 不能被承諾</text>
+  <!-- Right: Offer -->
+  <rect x="430" y="110" width="330" height="420" rx="20" fill="white" stroke="#1565C0" stroke-width="3" filter="url(#soft)"/>
+  <rect x="430" y="110" width="330" height="60" rx="20" fill="#1565C0"/>
+  <rect x="430" y="145" width="330" height="25" fill="#1565C0"/>
+  <text x="595" y="150" text-anchor="middle" fill="white" font-size="18" font-weight="bold">📜 要約</text>
+  <text x="595" y="210" text-anchor="middle" fill="#555" font-size="14">Offer</text>
+  <line x1="470" y1="225" x2="720" y2="225" stroke="#E3F2FD" stroke-width="1"/>
+  <text x="595" y="255" text-anchor="middle" fill="#333" font-size="13">• 表示願意受約束</text>
+  <text x="595" y="285" text-anchor="middle" fill="#333" font-size="13">• 有建立法律關係的意圖</text>
+  <text x="595" y="315" text-anchor="middle" fill="#333" font-size="13">• 條款確定或可確定</text>
+  <text x="595" y="345" text-anchor="middle" fill="#333" font-size="13">• 可被承諾</text>
+  <line x1="470" y1="360" x2="720" y2="360" stroke="#E3F2FD" stroke-width="1"/>
+  <rect x="470" y="375" width="250" height="45" rx="10" fill="#E3F2FD"/>
+  <text x="595" y="403" text-anchor="middle" fill="#1565C0" font-size="12" font-weight="bold">💬 "我願意以 £1,000 賣出"</text>
+  <rect x="470" y="430" width="250" height="45" rx="10" fill="#E8F5E9"/>
+  <text x="595" y="458" text-anchor="middle" fill="#2E7D32" font-size="12">✅ 可以被承諾</text>
+  <!-- Bottom bar -->
+  <rect x="150" y="555" width="500" height="35" rx="18" fill="#6A1B9A" filter="url(#soft)"/>
+  <text x="400" y="578" text-anchor="middle" fill="white" font-size="13">關鍵測試：一個合理的人會如何理解該表示？</text>
+</svg>

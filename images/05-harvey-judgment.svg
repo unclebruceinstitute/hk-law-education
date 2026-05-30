@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Noto Sans TC', sans-serif">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B3E5FC"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <filter id="card">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky5)"/>
+  <!-- Clouds -->
+  <ellipse cx="150" cy="50" rx="80" ry="30" fill="white" opacity="0.7"/>
+  <ellipse cx="650" cy="70" rx="70" ry="25" fill="white" opacity="0.6"/>
+  <!-- Title -->
+  <rect x="100" y="20" width="600" height="55" rx="28" fill="#00695C" filter="url(#card)"/>
+  <text x="400" y="55" text-anchor="middle" fill="white" font-size="20" font-weight="bold">⚖️ Harvey v Facey — 樞密院判決</text>
+  <!-- Courtroom scene -->
+  <rect x="50" y="100" width="700" height="250" rx="15" fill="#FFF8E1" stroke="#F57F17" stroke-width="2" filter="url(#card)"/>
+  <!-- Judge -->
+  <rect x="310" y="110" width="180" height="80" rx="10" fill="#5D4037"/>
+  <text x="400" y="145" text-anchor="middle" fill="white" font-size="14" font-weight="bold">🏛️ 樞密院</text>
+  <text x="400" y="170" text-anchor="middle" fill="#FFF8DC" font-size="12">Privy Council</text>
+  <!-- Arguments -->
+  <rect x="70" y="210" width="280" height="120" rx="10" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5"/>
+  <text x="210" y="240" text-anchor="middle" fill="#2E7D32" font-size="13" font-weight="bold">Harvey 的論點</text>
+  <text x="210" y="270" text-anchor="middle" fill="#555" font-size="12">"Facey 的回覆構成要約"</text>
+  <text x="210" y="295" text-anchor="middle" fill="#555" font-size="12">"我已接受，合約成立"</text>
+  <text x="210" y="320" text-anchor="middle" fill="#C62828" font-size="11" font-weight="bold">❌ 被駁回</text>
+
+  <rect x="450" y="210" width="280" height="120" rx="10" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="590" y="240" text-anchor="middle" fill="#1565C0" font-size="13" font-weight="bold">法院的裁決</text>
+  <text x="590" y="270" text-anchor="middle" fill="#555" font-size="12">"回覆僅是提供資訊"</text>
+  <text x="590" y="295" text-anchor="middle" fill="#555" font-size="12">"並非表示願意出售"</text>
+  <text x="590" y="320" text-anchor="middle" fill="#2E7D32" font-size="11" font-weight="bold">✅ 正確理解</text>
+
+  <!-- Reasoning -->
+  <rect x="50" y="370" width="700" height="200" rx="15" fill="white" stroke="#00695C" stroke-width="2" filter="url(#card)"/>
+  <text x="400" y="405" text-anchor="middle" fill="#00695C" font-size="16" font-weight="bold">法院的推理</text>
+  <!-- Step 1 -->
+  <circle cx="120" cy="450" r="20" fill="#FF9800"/>
+  <text x="120" y="456" text-anchor="middle" fill="white" font-size="14" font-weight="bold">1</text>
+  <text x="230" y="445" fill="#333" font-size="13">Harvey 問的是「你願意賣嗎？」</text>
+  <text x="230" y="465" fill="#666" font-size="12">→ 這只是查詢，非要約</text>
+  <!-- Step 2 -->
+  <circle cx="120" cy="500" r="20" fill="#FF9800"/>
+  <text x="120" y="506" text-anchor="middle" fill="white" font-size="14" font-weight="bold">2</text>
+  <text x="230" y="495" fill="#333" font-size="13">Facey 回覆「最低售價 £1,000」</text>
+  <text x="230" y="515" fill="#666" font-size="12">→ 這只是提供價格資訊</text>
+  <!-- Step 3 -->
+  <circle cx="120" y="550" r="20" fill="#4CAF50"/>
+  <text x="120" y="556" text-anchor="middle" fill="white" font-size="14" font-weight="bold">3</text>
+  <text x="230" y="545" fill="#333" font-size="13">合理的人不會認為這是出售要約</text>
+  <text x="230" y="565" fill="#2E7D32" font-size="12" font-weight="bold">→ 因此，無要約即無合約</text>
+</svg>

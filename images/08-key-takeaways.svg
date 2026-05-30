@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Noto Sans TC', sans-serif">
+  <defs>
+    <linearGradient id="sky8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A237E"/>
+      <stop offset="50%" stop-color="#283593"/>
+      <stop offset="100%" stop-color="#3949AB"/>
+    </linearGradient>
+    <filter id="glow8">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky8)"/>
+  <!-- Stars -->
+  <circle cx="50" cy="40" r="2" fill="white" opacity="0.8"/>
+  <circle cx="150" cy="80" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="300" cy="30" r="2" fill="white" opacity="0.7"/>
+  <circle cx="500" cy="60" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="650" cy="45" r="2" fill="white" opacity="0.8"/>
+  <circle cx="750" cy="90" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="100" cy="120" r="1" fill="white" opacity="0.5"/>
+  <circle cx="700" cy="140" r="1" fill="white" opacity="0.4"/>
+  <!-- Moon -->
+  <circle cx="700" cy="80" r="35" fill="#FFF9C4" opacity="0.3"/>
+  <circle cx="710" cy="75" r="30" fill="#1A237E"/>
+  <!-- Title -->
+  <text x="400" y="60" text-anchor="middle" fill="#FFD54F" font-size="28" font-weight="bold" filter="url(#glow8)">📌 重點總結</text>
+  <text x="400" y="90" text-anchor="middle" fill="#B39DDB" font-size="16">Key Takeaways — Offer & Replies to Inquiries</text>
+
+  <!-- Summary cards -->
+  <rect x="50" y="120" width="700" height="80" rx="15" fill="rgba(255,255,255,0.1)" stroke="#FFD54F" stroke-width="1.5"/>
+  <text x="90" y="150" fill="#FFD54F" font-size="20">1</text>
+  <text x="130" y="150" fill="white" font-size="15" font-weight="bold">要約（Offer）的定義</text>
+  <text x="130" y="180" fill="#B39DDB" font-size="13">一個合理的人會理解為「一經承諾即受約束」的明確表示</text>
+
+  <rect x="50" y="215" width="700" height="80" rx="15" fill="rgba(255,255,255,0.1)" stroke="#FFD54F" stroke-width="1.5"/>
+  <text x="90" y="245" fill="#FFD54F" font-size="20">2</text>
+  <text x="130" y="245" fill="white" font-size="15" font-weight="bold">回覆查詢（Reply to Inquiry）</text>
+  <text x="130" y="275" fill="#B39DDB" font-size="13">僅是提供資訊，不構成要約 — Harvey v Facey [1893]</text>
+
+  <rect x="50" y="310" width="700" height="80" rx="15" fill="rgba(255,255,255,0.1)" stroke="#FFD54F" stroke-width="1.5"/>
+  <text x="90" y="340" fill="#FFD54F" font-size="20">3</text>
+  <text x="130" y="340" fill="white" font-size="15" font-weight="bold">客觀測試（Objective Test）</text>
+  <text x="130" y="370" fill="#B39DDB" font-size="13">不探究主觀意圖，以「合理人」的標準判斷</text>
+
+  <rect x="50" y="405" width="700" height="80" rx="15" fill="rgba(255,255,255,0.1)" stroke="#FFD54F" stroke-width="1.5"/>
+  <text x="90" y="435" fill="#FFD54F" font-size="20">4</text>
+  <text x="130" y="435" fill="white" font-size="15" font-weight="bold">語境的重要性（Context Matters）</text>
+  <text x="130" y="465" fill="#B39DDB" font-size="13">同樣的文字在不同語境下，可能構成要約或僅是回覆查詢</text>
+
+  <rect x="50" y="500" width="700" height="80" rx="15" fill="rgba(255,255,255,0.1)" stroke="#FFD54F" stroke-width="1.5"/>
+  <text x="90" y="530" fill="#FFD54F" font-size="20">5</text>
+  <text x="130" y="530" fill="white" font-size="15" font-weight="bold">分析步驟</text>
+  <text x="130" y="560" fill="#B39DDB" font-size="13">① 確定有無要約 → ② 檢視字眼和語境 → ③ 應用客觀測試 → ④ 區分要約與回覆查詢</text>
+
+  <!-- Footer -->
+  <text x="400" y="595" text-anchor="middle" fill="#7986CB" font-size="12">LAWS6021 Principles of Contract — Week 1 Seminar Guide</text>
+</svg>

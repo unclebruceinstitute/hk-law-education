@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Noto Sans TC', sans-serif">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB347"/>
+      <stop offset="40%" stop-color="#FFCC80"/>
+      <stop offset="100%" stop-color="#E8F5E9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky2)"/>
+  <!-- Sun -->
+  <circle cx="680" cy="100" r="50" fill="#FFD700" opacity="0.6"/>
+  <circle cx="680" cy="100" r="35" fill="#FFF8DC"/>
+  <!-- Rolling hills -->
+  <ellipse cx="400" cy="550" rx="500" ry="120" fill="#7CB342"/>
+  <ellipse cx="200" cy="580" rx="300" ry="80" fill="#689F38"/>
+  <!-- Title -->
+  <rect x="180" y="40" width="440" height="55" rx="28" fill="#5D4037" filter="url(#glow)"/>
+  <text x="400" y="75" text-anchor="middle" fill="#FFF8DC" font-size="22" font-weight="bold">📜 要約的定義（Offer）</text>
+  <!-- Scroll -->
+  <rect x="100" y="130" width="600" height="350" rx="15" fill="#FFF8DC" stroke="#D4A574" stroke-width="3" filter="url(#glow)"/>
+  <rect x="90" y="125" width="30" height="360" rx="15" fill="#D4A574"/>
+  <rect x="680" y="125" width="30" height="360" rx="15" fill="#D4A574"/>
+  <!-- Definition text -->
+  <text x="400" y="180" text-anchor="middle" fill="#5D4037" font-size="16" font-weight="bold">Halsbury's Laws of Hong Kong：</text>
+  <text x="400" y="220" text-anchor="middle" fill="#333" font-size="13">"An offer is an expression by one person</text>
+  <text x="400" y="245" text-anchor="middle" fill="#333" font-size="13">made to another of his willingness</text>
+  <text x="400" y="270" text-anchor="middle" fill="#333" font-size="13">to be bound to a contract with that other</text>
+  <text x="400" y="295" text-anchor="middle" fill="#333" font-size="13">on terms either certain or capable of</text>
+  <text x="400" y="320" text-anchor="middle" fill="#333" font-size="13">being rendered certain."</text>
+  <!-- 4 key elements -->
+  <rect x="140" y="350" width="140" height="65" rx="10" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5"/>
+  <text x="210" y="375" text-anchor="middle" fill="#2E7D32" font-size="12" font-weight="bold">Expression</text>
+  <text x="210" y="400" text-anchor="middle" fill="#555" font-size="11">明確的表達</text>
+
+  <rect x="330" y="350" width="140" height="65" rx="10" fill="#E3F2FD" stroke="#1976D2" stroke-width="1.5"/>
+  <text x="400" y="375" text-anchor="middle" fill="#1565C0" font-size="12" font-weight="bold">Willingness</text>
+  <text x="400" y="400" text-anchor="middle" fill="#555" font-size="11">願意受約束</text>
+
+  <rect x="520" y="350" width="140" height="65" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
+  <text x="590" y="375" text-anchor="middle" fill="#BF360C" font-size="12" font-weight="bold">Certain Terms</text>
+  <text x="590" y="400" text-anchor="middle" fill="#555" font-size="11">條款確定</text>
+
+  <rect x="235" y="430" width="330" height="40" rx="20" fill="#FFECB3" stroke="#FF8F00" stroke-width="1.5"/>
+  <text x="400" y="456" text-anchor="middle" fill="#E65100" font-size="13" font-weight="bold">Made to Another → 向另一方作出</text>
+
+  <!-- Footer note -->
+  <rect x="200" y="520" width="400" height="45" rx="22" fill="#5D4037" filter="url(#glow)"/>
+  <text x="400" y="548" text-anchor="middle" fill="#FFF8DC" font-size="13">要約一經承諾，合約即告成立</text>
+  <!-- Ghibli flowers -->
+  <circle cx="80" cy="560" r="8" fill="#FF80AB"/><circle cx="95" cy="575" r="6" fill="#FFAB91"/>
+  <circle cx="720" cy="555" r="7" fill="#80D8FF"/><circle cx="735" cy="570" r="5" fill="#B9F6CA"/>
+</svg>
